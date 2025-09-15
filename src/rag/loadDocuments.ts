@@ -23,5 +23,5 @@ export async function loadDocuments(): Promise<Document[]> {
 
     return rawDocuments
 }
-const rawDocuments = await loadDocuments();
-console.log(rawDocuments[0]);
+// const rawDocuments = await loadDocuments();
+// console.log(rawDocuments[0]);
